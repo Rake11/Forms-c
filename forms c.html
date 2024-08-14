@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Register here</legend>
+        <form action="./success.txt" method="get">
+            <p>i am going to join 10kcoders &#128682; and wanna learn subjet and gonna become developer &#128187;</p>
+            <pre>
+                <div style="background-color: aqua;">
+                    <label for="name">Enter Name</label>
+                    <input type="text" name="" id="name" pattern="[A-za-z0-9]{3,}" required>
+                </div>
+                <div style="background-color:rgb(229, 233, 237);">
+                    <label for="password">Enter password</label>
+                    <input type="password" name="" id="password" pattern="[A-za-z!@#$%^&*0-9]{8,}" required>
+                </div>
+                <div style="background-color:rgb(83, 5, 172);">
+                    <label for="mail">Enter Email</label>
+                    <input type="email" name="" id="mail" pattern="[a-z0-9_&]+@[a-z]+.[a-z]{2,4}">
+                </div>
+                <div style="background-color: rgb(139, 76, 0);">
+                    <label for="food">Choose your fav food--</label>
+                    <select name="food" id="food" style="width: 170px;">
+                        <option value="">Select dishes</option>
+                        <option value="Biryani" selected>Biryani</option>
+                        <option value="Shakes">Shakes</option>
+                        <option value="Icecreams" >Icecreams</option>
+                        <option value="Tea" disabled>Tea</option>
+                    </select>
+                </div>
+                <div style="background-color: rgb(107, 47, 83);">
+                    <label for="timings">Timings</label>
+                    <input type="text" list="timings">
+                    <datalist id="timings" style="width: 170px;">
+                        <option value="8:30-10:30" >8:30-10:30</option>
+                        <option value="10:30-12:00">10:30-12:00</option>
+                        <option value="2:30-4:00">2:30-4:00</option>
+                        <option value="4:30-6:00">4:30-6:00</option>
+                    </datalist>
+                </div>
+                <div style="background-color: rgb(47, 55, 107);">
+                    <input type="file" name="" id="">
+                </div>
+                <div style="background-color: rgb(16, 79, 16);">
+                    Male-- <input type="radio" name="gender" id="male">
+                    Female--<input type="radio" name="gender" id="female">
+                    others--<input type="radio" name="gender" id="others">
+                </div>
+                <div>
+                    <input type="checkbox" name="" id=""> I agree <a href="#">terms</a> & <a href="#">conditions</a>
+                </div>
+                <div style="background-color: red;">
+                    <textarea name="" id="" rows="5" cols="40">
+                        Rakesh,
+                        4-378/A,
+                        AP,
+                        Bapatla,
+                        Guntur 
+                    </textarea>
+                </div>
+                <button type="submit">Submit</button>
+            </pre>
+        </form>
+    </fieldset>
+</body>
+</html>
